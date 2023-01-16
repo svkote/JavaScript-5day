@@ -3,11 +3,32 @@
 }
 
 body {
-  background-color: #111;
+  background-color: #3f3f3f;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+}
+
+.square {
+  width: 13px;
+  height: 13px;
+  background: rgba(163, 255, 198, 0.56);
+  margin: 2px;
+  box-shadow: 0 0 3px #7a9ea2;
+  transition: 5s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
 }
