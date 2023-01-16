@@ -8,7 +8,7 @@ body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
-  background: #111;
+  background: #88A795;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,16 +23,17 @@ body {
 
 .slide {
   height: 80vh;
+  border: none;
   border-radius: 20px;
   margin: 10px;
   cursor: pointer;
-  color: aliceblue;
+  color: #DBC7C9;
   flex: 1;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.9s ease-in-out;
 }
 
 .slide h3 {
@@ -45,11 +46,11 @@ body {
 }
 
 .slide.active {
+  border: 6px ridge #CD9B9D;
   flex: 13;
-
 }
 
 .slide.active h3{
   opacity: 1;
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in 0.4s;
 }
